@@ -47,7 +47,7 @@
         			android:layout_height="wrap_content"        	     	
         			android:scaleType="matrix"
         			android:clickable="true"
-        			android:src="@drawable/tab_category_whilepressing" />
+        			android:src="@drawable/tab_category_whilepressing111" />
                 <TextView
             		android:layout_width="wrap_content"
             		android:layout_height="wrap_content"
