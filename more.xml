@@ -12,72 +12,42 @@
   			android:background="@drawable/title_bar"
   			android:gravity="center_vertical"  >  
   			
-            
       		<TextView
-        		android:layout_width="wrap_content" 
-        		android:layout_height="wrap_content" 
-        		android:text="MORE"
-        		android:layout_centerInParent="true"
-        		android:textSize="26sp"
-				android:textColor="#ffffff" />
+      		    android:layout_width="wrap_content"
+      		    android:layout_height="wrap_content"
+      		    android:layout_centerInParent="true"
+      		    android:text="More"
+      		    android:textColor="#ffffff"
+      		    android:textSize="20sp" />
+
         </RelativeLayout>
 
+        <Button
+            android:id="@+id/button1"
+            style="@drawable/category_button"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/category_button"
+            android:text="Settings" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:background="@drawable/search_bar_bg" >
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/category_button"
+            android:text="Q &amp; A" />
 
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="SETTING"
-            android:textSize="28dp"
-            android:textColor="#000"
-            android:paddingTop="5dp"
-            android:gravity="center_horizontal"
-            />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:gravity="center"
-        android:background="@drawable/search_bar_bg" >
-
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="Q&amp;A"
-            android:textSize="28dp"
-            android:textColor="#000"
-            android:paddingTop="5dp"
-            android:gravity="center_horizontal"
-            />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:gravity="center"
-        android:background="@drawable/search_bar_bg" >
-
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="About US"
-            android:textSize="28dp"
-            android:textColor="#000"
-            android:paddingTop="5dp"
-            android:gravity="center_horizontal"
-            />
-
-    </LinearLayout>
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/category_button"
+            android:text="About us" />
 
 </LinearLayout>
